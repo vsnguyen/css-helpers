@@ -1,0 +1,69 @@
+// border-radius
+@mixin border-radius($r){
+  border-radius: $r;
+  -moz-border-radius: $r;
+  -webkit-border-radius: $r;
+}
+
+@mixin border-radius-top($tl, $tr){
+  border-top-left-radius: $tl;
+  border-top-right-radius: $tr;
+  -moz-border-top-left-radius: $tl;
+  -moz-border-top-right-radius: $tr;
+  -webkit-border-top-left-radius: $tl;
+  -webkit-border-top-right-radius: $tr;
+}
+
+@mixin border-radius-bottom($bl, $br){
+  border-top-left-radius: $bl;
+  border-top-right-radius: $br;
+  -moz-border-top-left-radius: $bl;
+  -moz-border-top-right-radius: $br;
+  -webkit-border-top-left-radius: $bl;
+  -webkit-border-top-right-radius: $br;
+}
+
+// box-shadow
+@mixin box-shadow($shadow){
+  box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  -webkit-box-shadow: $shadow;
+}
+
+@mixin inline(){
+  display: block-inline; 
+  zoom: 1; 
+  *display: inline;
+}
+
+// transition
+@mixin transition($transition){
+  transition: $transition;
+  -moz-transition: $transition;
+  -webkit-transition: $transition;
+}
+
+@mixin transition-delay($delay){
+  transition-delay: $delay;
+  -moz-transition-delay: $delay;
+  -webkit-transition-delay: $delay;
+}
+
+@mixin transition-duration($duration){
+  transition-delay: $duration;
+  -moz-transition-delay: $duration;
+  -webkit-transition-delay: $duration;
+}
+
+@mixin transition-transform($transform){
+  transition-delay: $duration;
+  -moz-transition-delay: $transform;
+  -webkit-transition-delay: $transform;
+}
+
+// opacity
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=$opacity)";
+  filter: alpha(opacity=$opacity);
+}

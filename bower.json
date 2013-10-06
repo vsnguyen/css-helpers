@@ -1,0 +1,19 @@
+{
+  "name": "CSS Helpers",
+  "version": "0.0.1",
+  "authors": [
+    "Vietson Nguyen"
+  ],
+  "description": "CSS Helpers are a group of useful css classes to help front-end web developers speed up the development process.",
+  "main": "/styles/helpers.css",
+  "keywords": [
+    "css",
+    "css helpers",
+    "sass",
+    "scss",
+    "web development",
+    "front-end development"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.vietsonnguyen.com"
+}
