@@ -23,6 +23,29 @@
 .invisible {
   visibility: none; }
 
+ul.dropdown-menu {
+  display: none;
+  position: absolute;
+  left: 0; }
+
+ul.dropdown-menu.push-left {
+  left: 0; }
+
+ul.dropdown-menu.push-right {
+  right: 0;
+  left: auto !important; }
+
+ul.dropdown {
+  list-style: none;
+  padding: 0;
+  display: block; }
+
+ul.dropdown > li, li.dropdown {
+  display: block;
+  position: relative; }
+  ul.dropdown > li:hover > ul.dropdown-menu, li.dropdown:hover > ul.dropdown-menu {
+    display: block; }
+
 .pull-left {
   float: left; }
 
@@ -275,9 +298,12 @@
 .text-underline {
   text-decoration: underline; }
 
-.list-unstyled {
-  list-style: none;
-  padding: 0px; }
+.text-strikethrough {
+  text-decoration: line-through; }
+
+.list-unstyled, .list-inline {
+  padding: 0px;
+  list-style: none; }
 
 .list-inline li {
   display: block-inline;

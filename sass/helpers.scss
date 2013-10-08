@@ -23,6 +23,16 @@
 .inline {@include inline;}
 .invisible {visibility: none;}
 
+// dropdown
+ul.dropdown-menu {display: none; position: absolute; left: 0;}
+ul.dropdown-menu.push-left {left: 0;}
+ul.dropdown-menu.push-right {right: 0; left: auto !important;}
+ul.dropdown {list-style: none; padding: 0; display: block;}
+ul.dropdown > li, li.dropdown {
+  display: block; position: relative;
+  &:hover > ul.dropdown-menu {display: block;}
+}
+
 // floats
 .pull-left {float: left;}
 .pull-right {float: right;}
@@ -126,12 +136,14 @@
 .text-left {text-align: left;}
 .text-right {text-align: right;}
 .text-underline {text-decoration: underline;}
+.text-strikethrough {text-decoration: line-through}
 
 // un-ordered list
 .list-unstyled {
-  list-style: none;
   padding: 0px;
+  list-style: none;
 }
 .list-inline{
+  @extend .list-unstyled;
   li {@include inline;}
 }
