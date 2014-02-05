@@ -31,7 +31,7 @@
 }
 
 @mixin inline(){
-  display: block-inline; 
+  display: inline-block;
   zoom: 1; 
   *display: inline;
 }
