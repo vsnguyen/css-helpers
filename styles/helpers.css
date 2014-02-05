@@ -16,7 +16,7 @@
   display: none; }
 
 .inline {
-  display: block-inline;
+  display: inline-block;
   zoom: 1;
   *display: inline; }
 
@@ -306,6 +306,6 @@ ul.dropdown > li, li.dropdown {
   list-style: none; }
 
 .list-inline li {
-  display: block-inline;
+  display: inline-block;
   zoom: 1;
   *display: inline; }
