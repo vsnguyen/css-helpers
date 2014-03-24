@@ -24,11 +24,11 @@
 .invisible {visibility: none;}
 
 // dropdown
-ul.dropdown-menu {display: none; position: absolute; left: 0;}
-ul.dropdown-menu.push-left {left: 0;}
-ul.dropdown-menu.push-right {right: 0; left: auto !important;}
-ul.dropdown {list-style: none; padding: 0; display: block;}
-ul.dropdown > li, li.dropdown {
+ul.dd-menu {display: none; position: absolute; left: 0;}
+ul.dd-menu.push-left {left: 0;}
+ul.dd-menu.push-right {right: 0; left: auto !important;}
+ul.dd {list-style: none; padding: 0; display: block;}
+ul.dd > li, li.dropdown {
   display: block; position: relative;
   &:hover > ul.dropdown-menu {display: block;}
 }

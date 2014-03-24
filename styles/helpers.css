@@ -23,27 +23,27 @@
 .invisible {
   visibility: none; }
 
-ul.dropdown-menu {
+ul.dd-menu {
   display: none;
   position: absolute;
   left: 0; }
 
-ul.dropdown-menu.push-left {
+ul.dd-menu.push-left {
   left: 0; }
 
-ul.dropdown-menu.push-right {
+ul.dd-menu.push-right {
   right: 0;
   left: auto !important; }
 
-ul.dropdown {
+ul.dd {
   list-style: none;
   padding: 0;
   display: block; }
 
-ul.dropdown > li, li.dropdown {
+ul.dd > li, li.dropdown {
   display: block;
   position: relative; }
-  ul.dropdown > li:hover > ul.dropdown-menu, li.dropdown:hover > ul.dropdown-menu {
+  ul.dd > li:hover > ul.dropdown-menu, li.dropdown:hover > ul.dropdown-menu {
     display: block; }
 
 .pull-left {
