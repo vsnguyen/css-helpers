@@ -23,6 +23,9 @@
 .invisible {
   visibility: none; }
 
+.visible {
+  visibility: normal; }
+
 ul.dd-menu {
   display: none;
   position: absolute;
@@ -55,20 +58,50 @@ ul.dd > li, li.dropdown {
 .pull-none {
   float: none !important; }
 
-.h1 {
-  font-size: 36px; }
-
-.h2 {
+.font-40 {
   font-size: 30px; }
 
-.h3 {
+.font-38 {
+  font-size: 38px; }
+
+.font-36 {
+  font-size: 36px; }
+
+.font-34 {
+  font-size: 34px; }
+
+.font-32 {
+  font-size: 32px; }
+
+.font-30 {
+  font-size: 30px; }
+
+.font-28 {
+  font-size: 28px; }
+
+.font-26 {
+  font-size: 26px; }
+
+.font-24 {
   font-size: 24px; }
 
-.h4 {
+.font-22 {
+  font-size: 22px; }
+
+.font-20 {
+  font-size: 20px; }
+
+.font-18 {
   font-size: 18px; }
 
-.h5 {
+.font-16 {
+  font-size: 16px; }
+
+.font-14 {
   font-size: 14px; }
+
+.font-12 {
+  font-size: 12px; }
 
 .nm {
   margin: 0px; }
@@ -298,8 +331,104 @@ ul.dd > li, li.dropdown {
 .text-underline {
   text-decoration: underline; }
 
-.text-strikethrough {
+.text-strike {
   text-decoration: line-through; }
+
+.text-fff {
+  color: #fff; }
+
+.text-eee {
+  color: #eee; }
+
+.text-ddd {
+  color: #ddd; }
+
+.text-ccc {
+  color: #ccc; }
+
+.text-bbb {
+  color: #bbb; }
+
+.text-aaa {
+  color: #aaa; }
+
+.text-999 {
+  color: #999; }
+
+.text-888 {
+  color: #888; }
+
+.text-777 {
+  color: #777; }
+
+.text-666 {
+  color: #666; }
+
+.text-555 {
+  color: #555; }
+
+.text-444 {
+  color: #444; }
+
+.text-333 {
+  color: #333; }
+
+.text-222 {
+  color: #222; }
+
+.text-111 {
+  color: #111; }
+
+.text-000 {
+  color: #000; }
+
+.bg-fff {
+  background-color: #fff; }
+
+.bg-eee {
+  background-color: #eee; }
+
+.bg-ddd {
+  background-color: #ddd; }
+
+.bg-ccc {
+  background-color: #ccc; }
+
+.bg-bbb {
+  background-color: #bbb; }
+
+.bg-aaa {
+  background-color: #aaa; }
+
+.bg-999 {
+  background-color: #999; }
+
+.bg-888 {
+  background-color: #888; }
+
+.bg-777 {
+  background-color: #777; }
+
+.bg-666 {
+  background-color: #666; }
+
+.bg-555 {
+  background-color: #555; }
+
+.bg-444 {
+  background-color: #444; }
+
+.bg-333 {
+  background-color: #333; }
+
+.bg-222 {
+  background-color: #222; }
+
+.bg-111 {
+  background-color: #111; }
+
+.bg-000 {
+  background-color: #000; }
 
 .list-unstyled, .list-inline {
   padding: 0px;

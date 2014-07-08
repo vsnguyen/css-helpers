@@ -67,3 +67,11 @@
   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=$opacity)";
   filter: alpha(opacity=$opacity);
 }
+
+// font-size and line-height
+@mixin font-size($font: 1.6, $line: 1.628){
+  font-size: ($font) + rem;
+  font-size: ($font * 10) + px;
+  line-height: ($font * $line) + rem;
+  line-height: ($font * $line) + rem;
+}
